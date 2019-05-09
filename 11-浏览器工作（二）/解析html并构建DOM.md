@@ -2,6 +2,8 @@
 
 这一部分大概内容是讲的浏览器如何解析请求回来的HTML代码，以及DOM树是如何构建的。文章中涉及到编译原理的部分，因此先简单记录一下。后面本学期的编译原理学差不多的时候，再自己简单实现一下。该篇文章的demo先占个坑。
 
+[demo](https://github.com/Qxiaoqi/parse-html)
+
 ## 联系
 
 看到这部分解析HTML的部分，想起了Vue中template的Compile的过程，Compile有三个过程，parse，optimize，generate。其中的parse就是将template解析，提取其中的class，style等，形成AST语法树。
