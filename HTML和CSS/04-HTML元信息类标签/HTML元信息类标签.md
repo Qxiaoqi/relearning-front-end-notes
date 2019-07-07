@@ -78,7 +78,7 @@ meta可自由定义，viewport在HTML标准里没有定义，却是移动端开�
 
 * author：页面作者
 * description：页面描述，可能被用于搜索引擎
-* keywords：页面关键字，对于SEO非常关键
+* keywords：页面关键字，对于SEO非常关键（似乎已无影响？有待验证。可使用description）
 * referrer：跳转策略
 
 ## 举例
