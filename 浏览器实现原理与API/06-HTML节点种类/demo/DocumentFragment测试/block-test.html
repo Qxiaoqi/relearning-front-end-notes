@@ -1,0 +1,19 @@
+<div id="test" class="test" style="height: 50px; background-color: yellow;"></div>
+<script type="text/javascript">
+  function sleep(duration) {
+    var endDate = new Date().getTime() + duration;
+    while (new Date().getTime() < endDate) {
+
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    window.setTimeout(function() {
+      var div = document.getElementById('test');
+      div.style.backgroundColor = 'green';
+      console.log('sleep');
+      sleep(2000);
+      console.log('wake up');
+    }, 2000);
+  }, false);
+</script>

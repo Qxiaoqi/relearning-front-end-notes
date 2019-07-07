@@ -1,0 +1,22 @@
+<style>
+#elem-container{
+  position: absolute;
+  left:     100px;
+  top:      200px;
+  height:   100px;
+}
+</style>
+
+<div id="elem-container">dummy</div>
+<div id="output"></div>  
+
+<script>
+  function getTheStyle(){
+    let elem = document.getElementById("elem-container");
+    let theCSSprop = window.getComputedStyle(elem,null);
+    document.getElementById("output").innerHTML = theCSSprop;
+  }
+  getTheStyle();
+
+  console.log(document.body.offsetHeight);
+</script>
